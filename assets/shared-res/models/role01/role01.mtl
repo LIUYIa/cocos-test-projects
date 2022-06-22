@@ -10,11 +10,9 @@
   "_techIdx": 0,
   "_defines": [
     {
-      "USE_OUTLINE_PASS": true,
-      "USE_INSTANCING": true
+      "USE_OUTLINE_PASS": true
     },
     {
-      "USE_INSTANCING": true,
       "USE_BASE_COLOR_MAP": true,
       "USE_1ST_SHADE_MAP": true,
       "USE_2ND_SHADE_MAP": true,
@@ -42,8 +40,24 @@
         ]
       }
     },
-    {},
-    {}
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    },
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    }
   ],
   "_props": [
     {
